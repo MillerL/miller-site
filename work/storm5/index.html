@@ -1,0 +1,100 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<style type="text/css">
+<!--
+body {
+	
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: #000000;
+	text-align: center;
+	background:url(bgPic.png) repeat left top;
+}
+-->
+</style>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<title></title>
+
+<body >
+<script type="text/javascript">
+var flashvars = { 
+	//doubanlogin:"yes",//????¨¨?|???1/4??§??flash??3/4???ì???????|???1/4??§??no\No\False ????|???1/4
+	//loginUrl:"http://www.douban.com/accounts/login",//???ì??ì??|???1/4|?????¨¨3/4?
+	//saveUrl:"http://4view.cn/interface/savefile.php",//1/2???????§??ae?1/4AE?|???3?ae
+	//contactUrl:"http://www.douban.com/minisite/lining/",//??1?????§|?????
+	//xmlPath:"pics.xml",//xml???¨¨3/4?	
+	//is_contact:"yes",//????¨¨?1?????§|??§????????1?????§|
+	//saveOkToUrl:"",//????§??ae3?1|?????|?1/2?3?ae		
+	//expired:"NO",//???è????ê?è????¨¨?1?AE?
+	//ck:"None"// ?????ì(R)????|?1/2|??ck?|???§????????????3/4??¨¨??§|???ì21/2???è???è?¨??¨¨????1????§???¨?????Flash?????ì?1/4?1?????§|??? ??¨??¨¨??§?(C),??1??????è??§???|???1/2??§?????ì?????|???"None"
+	
+	
+	saveUrl:"http:/miller.nmtree.com/save.php",
+    doubanlogin:"True",
+    saveOkToUrl:"",
+    loginUrl:"",
+    bgs:"",
+    is_contact:"yes",
+    xmlPath:"",
+    expired:"False",
+    ck:"LXGC",
+    user_uid:"2785997",
+    user_id:"2785997"
+};  
+var params = {  
+  menu: "true" ,
+  allowScriptAccess:"always",
+  transparent:"true",
+  wmode:"transparent"
+};  
+var attributes = {  
+  id: "myDynamicContent",  
+  name: "myDynamicContent"  
+};  
+var myDate=new Date();
+var _v=myDate.getTime();
+swfobject.embedSWF("MainStage.swf", "swfContent", "100%", "100%", "10.0.0","expressInstall.swf", flashvars, params, attributes); </script>
+<div id="swfContent"  align="center"></div>
+<script type="text/javascript">
+var _pageHeight=800;
+function setPageHeight(__h){
+  _pageHeight=__h;
+  jQuery("body").height(_pageHeight);
+}
+function setScrollTop(__t){
+   document.body.scrollTop=__t+"px";
+}
+function getParam(name){
+        var search = document.location.search;
+        var pattern = new RegExp("[?&]"+name+"\=([^&]+)", "g");
+        var matcher = pattern.exec(search);
+        var items = null;
+        if(null != matcher){
+                try{
+                        items = decodeURIComponent(decodeURIComponent(matcher[1]));
+                }catch(e){
+                        try{
+                                items = decodeURIComponent(matcher[1]);
+                        }catch(e){
+                                items = matcher[1];
+                        }
+                }
+        }
+        return items;
+};
+
+setTimeout(function(){jQuery("body").height(_pageHeight); },100);
+function showFontName(__name){
+	alert(__name);
+}
+jQuery(function() {
+	setPageHeight(800);
+})
+
+</script>
+</body>
+</html>

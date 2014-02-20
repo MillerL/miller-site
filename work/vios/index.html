@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background:#000000;
+	text-align: center;
+}
+-->
+</style></head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<title></title>
+
+<body >
+<script type="text/javascript">
+var flashvars = { 
+	//doubanlogin:"yes",//是否登录，flash本身默认未登录，no\No\False 为未登录
+	//loginUrl:"http://www.douban.com/accounts/login",//需要登录的路径
+	//saveUrl:"http://4view.cn/interface/savefile.php",//接收保存图片的页面
+	//contactUrl:"http://www.douban.com/minisite/lining/",//未关注跳转
+	//xmlPath:"pics.xml",//xml路径	
+	//is_contact:"yes",//是否关注，默认未关注
+	//saveOkToUrl:"",//保存成功跳转到页面		
+	//expired:"NO",//活动是否过期
+	//ck:"None"// 请求要用到的ck值，用于和主站发生交互时使用（如在Flash中添加关注按 钮）,如果用户未登陆，则此值为"None"
+	
+	
+	saveUrl:"http://miller.nmtree.com/save.php",
+    doubanlogin:"True",
+    saveOkToUrl:"",
+    loginUrl:"",
+    bgs:"",
+    is_contact:"yes",
+    xmlPath:"",
+    expired:"False",
+    ck:"LXGC",
+    user_uid:"2785997",
+    user_id:"2785997"
+};  
+var params = {  
+  menu: "true" ,
+  allowScriptAccess:"always",
+  transparent:"true",
+  wmode:"opaque"
+};  
+var attributes = {  
+  id: "myDynamicContent",  
+  name: "myDynamicContent"  
+};  
+var myDate=new Date();
+var _v=myDate.getTime();
+swfobject.embedSWF("main.swf", "swfContent", "100%", "100%", "10.0.0","expressInstall.swf", flashvars, params, attributes); </script>
+<div id="swfContent"  align="center"></div>
+
+</body>
+</html>
